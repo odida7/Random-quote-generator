@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-height: 10rem;
+    background-color: rgb(226, 228, 228);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hh{
+    display: flex;
+    margin: 2rem 2rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+#quoteDisplay{
+    display: flex;
+    margin: 1rem 2rem;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    margin: 1rem 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(48, 48, 48);
+}
